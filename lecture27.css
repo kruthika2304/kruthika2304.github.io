@@ -60,7 +60,7 @@ p.under {
 	
 	/* below he makes a bg just for the thumbnails by using 
 	   only repeat-x and pushing it to the bottom of this div */
-	background: url(../images/panel.jpg) repeat-x bottom center #fff;
+	background: url(../panel.jpg) repeat-x bottom center #fff;
 	overflow: hidden;
 	}
 
@@ -108,7 +108,7 @@ p.under {
 
 #thumbs li.active, #thumbs li.active:hover {
 	/* .active class will be added with jQuery */ 
-	background: url(../images/active_bg.png) no-repeat;
+	background: url(../active_bg.png) no-repeat;
 	}
 
 /* links */
