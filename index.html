@@ -6,11 +6,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.1/angular.min.js"></script>
 	<script src="app.js"></script>
 </head>
-<body ng-app="HangmanApp" ng-controller="GameController">
+<body bgcolor="#FF0000" ng-app="HangmanApp" ng-controller="GameController">
 	<div>
 		Guesses Left :: {{guesses}}
 	</div>
-	<div style="background-color:red">
+	<div>
 		<div style="min-width: 40%">
 			Correct Letters :: <span ng-repeat="letter in correctLettersChosen">{{letter}}</span>
 		</div>
