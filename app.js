@@ -1,6 +1,6 @@
 var app = angular.module("HangmanApp",[]);
 app.controller("GameController",['$scope','$timeout',function($scope,$timeout){
-	var words=["Apples","Remember","Mountain","Pokemon"];
+	var words=["Apples","Remember","Mangoes","Pokemon"];
 	$scope.incorrectLettersChosen=[];
 	$scope.correctLettersChosen=[];
 	var selectedWord='';
